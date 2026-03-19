@@ -1,7 +1,7 @@
 <h1 align="center">AgentVLN: Towards Agentic Vision-and-Language Navigation</h1>
 
 <p align="center">
-  <a href="allenxinn.github.io/AgentVLN.html"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
+  <a href="https://allenxinn.github.io/AgentVLN/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
   <a href="./pdf"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
   <!-- <a href="https://github.com/Allenxinn/AgentVLN"><img src="https://img.shields.io/badge/Code-GitHub-black"></a> -->
 </p>
@@ -45,7 +45,20 @@ AgentVLN is an efficient embodied navigation framework for long-horizon vision-a
 
 Real-world experiments show that AgentVLN can execute instruction-following navigation in both indoor and outdoor scenes, while maintaining robust planning and efficient deployment.
 
+
+
+<p align="center">
+  <img src="assets/videos/vis_1.gif" width="40%"  >   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   <img src="assets/videos/vis_2.gif" width="40%" > 
+</p>
+
+<p align="center">
+  <img src="assets/videos/vis_3.gif" width="40%"  >   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   <img src="assets/videos/vis_4.gif" width="40%" > 
+</p>
+
+Please see our <a href="https://allenxinn.github.io/AgentVLN/"> project page </a> for HD demo.
+<!--
 Simulation demos: [Demo 1](assets/videos/vis_1.mp4) | [Demo 2](assets/videos/vis_2.mp4) | [Demo 3](assets/videos/vis_3.mp4) | [Demo 4](assets/videos/vis_4.mp4)
+-->
 
 ## Highlights
 
