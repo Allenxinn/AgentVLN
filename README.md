@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://allenxinn.github.io/AgentVLN/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
-  <a href="./pdf"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
+  <a href="https://arxiv.org/abs/2603.17670"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
   <!-- <a href="https://github.com/Allenxinn/AgentVLN"><img src="https://img.shields.io/badge/Code-GitHub-black"></a> -->
 </p>
 
@@ -43,7 +43,7 @@ AgentVLN is an efficient embodied navigation framework for long-horizon vision-a
   <img src="assets/images/real_world.png" width="88%">
 </p>
 
-Real-world experiments show that AgentVLN can execute instruction-following navigation in both indoor and outdoor scenes, while maintaining robust planning and efficient deployment.
+Real-world experiments show that AgentVLN can execute instruction-following navigation in both indoor and outdoor scenes, while maintaining robust planning and efficient deployment. We will release real-world video demos soon.
 
 
 ### Simulation demos
@@ -101,6 +101,9 @@ AgentVLN consistently outperforms prior state-of-the-art methods on the Val-Unse
       title={AgentVLN: Towards Agentic Vision-and-Language Navigation},
       author={Zihao Xin and Wentong Li and Yixuan Jiang and Ziyuan Huang and Bin Wang and Piji Li and Jianke Zhu and Jie Qin and Sheng-Jun Huang},
       year={2026},
-      note={},
+      eprint={2603.17670},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2603.17670}, 
 }
 ```
