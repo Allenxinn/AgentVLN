@@ -32,11 +32,22 @@
 </p>
 -->
 
+
+
+
+
 <p align="center">
   <img src="assets/images/framework.png" width="100%">
 </p>
 
 AgentVLN is an efficient embodied navigation framework for long-horizon vision-and-language navigation in unseen environments. It formulates VLN as a POSMDP and follows a **VLM-as-Brain** paradigm that decouples high-level semantic reasoning from low-level perception and planning through a plug-and-play skill library.
+
+
+## News
+
+* **[2026.04.01]** We release the [AgentVLN-Instruct dataset](https://huggingface.co/datasets/allenxinn/AgentVLN-Instruct) on HuggingFace.
+
+
 
 ## Real-world Deployment
 
