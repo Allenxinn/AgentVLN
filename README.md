@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://allenxinn.github.io/AgentVLN/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
   <a href="https://arxiv.org/abs/2603.17670"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
-  <a href="https://huggingface.co/datasets/allenxinn/AgentVLN-Instruct"><img src="https://img.shields.io/badge/Dataset-hf-black"></a>
+  <a href="https://huggingface.co/datasets/allenxinn/AgentVLN-Instruct"><img src="https://img.shields.io/badge/Dataset-HuggingFace-black"></a>
   <!-- <a href="https://github.com/Allenxinn/AgentVLN"><img src="https://img.shields.io/badge/Code-GitHub-black"></a> -->
 </p>
 
