@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://allenxinn.github.io/AgentVLN/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
   <a href="https://arxiv.org/abs/2603.17670"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
+  <a href="https://huggingface.co/datasets/allenxinn/AgentVLN-Instruct"><img src="https://img.shields.io/badge/Dataset-hf-black"></a>
   <!-- <a href="https://github.com/Allenxinn/AgentVLN"><img src="https://img.shields.io/badge/Code-GitHub-black"></a> -->
 </p>
 
@@ -90,7 +91,7 @@ AgentVLN consistently outperforms prior state-of-the-art methods on the Val-Unse
 
 ## TODO
 - [x] Release the project page and paper PDF
-- [ ] Release AgentVLN-Instruct
+- [x] Release AgentVLN-Instruct
 - [ ] Open-source training and inference code
 - [ ] Release pretrained model checkpoints
 - [ ] Add installation and environment setup instructions
