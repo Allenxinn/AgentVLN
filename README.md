@@ -34,7 +34,7 @@
 
 
 ## News
-
+* **[2026.05.14]** We released real-world demos deployed on the Unitree G1 humanoid and Go2 quadruped robots.
 * **[2026.04.01]** We release the [AgentVLN-Instruct dataset](https://huggingface.co/datasets/allenxinn/AgentVLN-Instruct) on HuggingFace.
 
 ##
@@ -62,7 +62,7 @@ AgentVLN is an efficient embodied navigation framework for long-horizon vision-a
 
 
 
-Real-world experiments show that AgentVLN can execute instruction-following navigation in both indoor and outdoor scenes, while maintaining robust planning and efficient deployment. We will release real-world video demos soon.
+Real-world experiments show that AgentVLN can execute instruction-following navigation in both indoor and outdoor scenes, while maintaining robust planning and efficient deployment. Please refer to [project page](https://allenxinn.github.io/AgentVLN/) for more real-world video demos.
 
 
 ### Simulation demos
