@@ -54,9 +54,13 @@ AgentVLN is an efficient embodied navigation framework for long-horizon vision-a
 
 ## Real-world Deployment
 
+
+
 <p align="center">
-  <img src="assets/images/real_world.png" width="88%">
+  <img src="assets/videos/G1-real-1.gif" width="30%"  >   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   <img src="assets/videos/G1-real-2.gif" width="30%" > 
 </p>
+
+
 
 Real-world experiments show that AgentVLN can execute instruction-following navigation in both indoor and outdoor scenes, while maintaining robust planning and efficient deployment. We will release real-world video demos soon.
 
