@@ -39,19 +39,6 @@
 
 ##
 
-
-
-<p align="center">
-  <img src="assets/images/framework.png" width="100%">
-</p>
-
-AgentVLN is an efficient embodied navigation framework for long-horizon vision-and-language navigation in unseen environments. It formulates VLN as a POSMDP and follows a **VLM-as-Brain** paradigm that decouples high-level semantic reasoning from low-level perception and planning through a plug-and-play skill library.
-
-
-
-
-
-
 ## Real-world Deployment
 
 
@@ -63,6 +50,15 @@ AgentVLN is an efficient embodied navigation framework for long-horizon vision-a
 
 
 Real-world experiments show that AgentVLN can execute instruction-following navigation in diverse scenes, while maintaining robust planning and efficient deployment. Please refer to [project page](https://allenxinn.github.io/AgentVLN/) for more real-world video demos.
+
+
+<p align="center">
+  <img src="assets/images/framework.png" width="100%">
+</p>
+
+AgentVLN is an efficient embodied navigation framework for long-horizon vision-and-language navigation in unseen environments. It formulates VLN as a POSMDP and follows a **VLM-as-Brain** paradigm that decouples high-level semantic reasoning from low-level perception and planning through a plug-and-play skill library.
+
+
 
 
 ### Simulation demos
