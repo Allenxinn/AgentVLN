@@ -57,7 +57,7 @@ AgentVLN is an efficient embodied navigation framework for long-horizon vision-a
 
 
 <p align="center">
-  <img src="assets/videos/G1-real-1.gif" width="30%"  >   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   <img src="assets/videos/G1-real-2.gif" width="30%" > 
+  <img src="assets/videos/G1-real-1.gif" width="28%"  >   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   <img src="assets/videos/G1-real-2.gif" width="28%"  >    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  <img src="assets/videos/G1-real-3.gif" width="28%" > 
 </p>
 
 
