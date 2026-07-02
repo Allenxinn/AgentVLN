@@ -46,9 +46,8 @@
 
 
 <p align="center">
-  <img src="assets/videos/G1-real-1.gif" width="28%"  >   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   <img src="assets/videos/G1-real-2.gif" width="28%"  >    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  <img src="assets/videos/G1-real-3.gif" width="28%" > 
+  <img src="assets/videos/G1-real-1.gif" width="20%"  >   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   <img src="assets/videos/G1-real-2.gif" width="20%"  >    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  <img src="assets/videos/G1-real-3.gif" width="20%" > 
 </p>
-
 
 
 Real-world experiments show that AgentVLN can execute instruction-following navigation in diverse scenes, while maintaining robust planning and efficient deployment. Please refer to [project page](https://allenxinn.github.io/AgentVLN/) for more real-world video demos.
