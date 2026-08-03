@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://allenxinn.github.io/AgentVLN/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
   <a href="https://arxiv.org/abs/2603.17670"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
+   <a href="https://github.com/Allenxinn/AgentVLN/blob/main/assets/Supplementary_Materials.pdf"><img src="https://img.shields.io/badge/Supplementary Material-PDF-green"></a>
   <a href="https://huggingface.co/datasets/allenxinn/AgentVLN-Instruct"><img src="https://img.shields.io/badge/Dataset-HuggingFace-black"></a>
   <!-- <a href="https://github.com/Allenxinn/AgentVLN"><img src="https://img.shields.io/badge/Code-GitHub-black"></a> -->
 </p>
@@ -34,11 +35,22 @@
 
 
 ## News
-
+* **[2026.06.18]** AgentVLN is accepted by ECCV 2026!!!
+* **[2026.05.14]** We release real-world demos deployed on the Unitree G1 humanoid and Go2 quadruped robots.
 * **[2026.04.01]** We release the [AgentVLN-Instruct dataset](https://huggingface.co/datasets/allenxinn/AgentVLN-Instruct) on HuggingFace.
 
 ##
 
+## Real-world Deployment
+
+
+
+<p align="center">
+  <img src="assets/videos/G1-real-1.gif" width="20%"  >   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   <img src="assets/videos/G1-real-2.gif" width="20%"  >    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  <img src="assets/videos/G1-real-3.gif" width="20%" > 
+</p>
+
+
+Real-world experiments show that AgentVLN can execute instruction-following navigation in diverse scenes, while maintaining robust planning and efficient deployment. Please refer to [project page](https://allenxinn.github.io/AgentVLN/) for more real-world video demos.
 
 
 <p align="center">
@@ -48,17 +60,6 @@
 AgentVLN is an efficient embodied navigation framework for long-horizon vision-and-language navigation in unseen environments. It formulates VLN as a POSMDP and follows a **VLM-as-Brain** paradigm that decouples high-level semantic reasoning from low-level perception and planning through a plug-and-play skill library.
 
 
-
-
-
-
-## Real-world Deployment
-
-<p align="center">
-  <img src="assets/images/real_world.png" width="88%">
-</p>
-
-Real-world experiments show that AgentVLN can execute instruction-following navigation in both indoor and outdoor scenes, while maintaining robust planning and efficient deployment. We will release real-world video demos soon.
 
 
 ### Simulation demos
