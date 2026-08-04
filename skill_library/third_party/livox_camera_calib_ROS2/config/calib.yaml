@@ -1,0 +1,28 @@
+# Data path. adjust them!
+common:
+    image_file: "/home/nvidia/wp/repo/frames/000000_frame000000_1777213392006032766.png"
+    pcd_file: "/home/nvidia/wp/repo/pcd/0.pcd"
+    result_file: "/home/nvidia/wp/ros_project/livox/ws_calib/extrinsic.txt"
+
+# Camera Parameters. Adjust them!
+camera:
+    camera_matrix: [390.323944091797, 0.0,      322.221282958984,
+                0.0,     390.323944091797,  234.535888671875,
+                0.0,     0.0,      1.0     ]
+    dist_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
+
+# Calibration Parameters.!
+calib:
+    calib_config_file: "/home/ycj/catkin_ws/src/livox_camera_calib/config/config_outdoor.yaml"
+    use_rough_calib: true # set true if your initial_extrinsic is bad
+
+#  Intrinsic of "Depth" / 640x480 / {Z16}
+#   Width:        640
+#   Height:       480
+#   PPX:          322.221282958984
+#   PPY:          234.535888671875
+#   Fx:           390.323944091797
+#   Fy:           390.323944091797
+#   Distortion:   Brown Conrady
+#   Coeffs:       0       0       0       0       0  
+#   FOV (deg):    78.69 x 63.17
