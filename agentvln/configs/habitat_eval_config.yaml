@@ -1,0 +1,74 @@
+map:
+  resolution: 512
+  floor_management:
+    enabled: true
+    floor_match_tolerance: 0.5
+    floor_departure_threshold: 0.75
+    min_floor_separation: 1.5
+    stable_window_steps: 4
+    stable_height_tolerance: 0.10
+    min_navigable_component_area_m2: 4.0
+  visible_radius: 8.0  
+
+exploration:
+  min_unexplored_area_m2: 2.0
+  expert_candidate_match_distance_m: 2.0
+  occlusion_tolerance: 0.2
+  obstacle_distance_threshold: 0.2  
+  min_target_spacing: 0.5 
+  max_targets: 5
+
+camera:
+  depth_max: 10.0
+  width: 640
+  height: 480
+  hfov: 110  
+
+trajectory:
+  max_distance: 10.0 
+  min_distance: 0 
+
+dataset:
+  type: "R2R"  # "R2R" or "RxR"
+  data_path: "/path/to/r2r.json.gz"
+  scenes_dir: "/path/to/scene_datasets"
+  split: ""
+
+model:
+  model_name_or_path: "/path/to/checkpoint"
+  trust_remote_code: true
+  attn_implementation: "flash_attention_2"
+  torch_dtype: "bfloat16"
+  max_new_tokens: 128
+  image_min_pixels: 200704  
+  image_max_pixels: 1003520  
+
+evaluation:
+  plan_interval: 4        
+  max_steps: 500         
+  success_distance: 3.0  
+  nav_arrival_distance: 0.25  
+  max_action_lookahead: 3
+
+# Extra stop rules — multiple rules can be active simultaneously.
+# Set 'enabled: false' to disable a specific rule.
+stop_rules:
+  consecutive_target_stop:
+    enabled: true               
+    consecutive_count: 3      
+    distance_threshold: 1.0     
+
+nav_config:
+  max_history_frames: 8
+  use_action_symbols: false
+  prefix_trainable: true
+  distance_threshold: 3.0
+
+output:
+  base_path: "./eval_results"
+  save_predictions: true
+
+debug:
+  enabled: false
+  max_episodes: 5
+  visualization: true   
