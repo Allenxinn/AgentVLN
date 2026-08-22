@@ -35,7 +35,7 @@
 
 
 ## News
-* **[2026.06.18]** We release the training code, third-party skill library used for deployment and camera mount documentation.
+* **[2026.08.18]** We release the training code, third-party skill library used for deployment and camera mount documentation.
 * **[2026.06.18]** AgentVLN is accepted by ECCV 2026!!!
 * **[2026.05.14]** We release real-world demos deployed on the Unitree G1 humanoid and Go2 quadruped robots.
 * **[2026.04.01]** We release the [AgentVLN-Instruct dataset](https://huggingface.co/datasets/allenxinn/AgentVLN-Instruct) on HuggingFace.
