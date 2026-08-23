@@ -1,0 +1,59 @@
+map:
+  resolution: 512
+  floor_management:
+    enabled: true
+    floor_match_tolerance: 0.5
+    floor_departure_threshold: 0.75
+    min_floor_separation: 1.5
+    stable_window_steps: 4
+    stable_height_tolerance: 0.10
+    min_navigable_component_area_m2: 4.0
+  visible_radius: 8.0  
+
+exploration:
+  occlusion_tolerance: 0.2
+  min_unexplored_area_m2: 2.0
+  expert_candidate_match_distance_m: 2.0
+  obstacle_distance_threshold: 0.2  
+  min_target_spacing: 0.5  
+  max_targets: 5  
+
+camera:
+  depth_max: 10.0
+  camera_height: 1.25
+  width: 640
+  height: 480
+  hfov: 110  
+
+trajectory:
+  sample_interval: 0.25
+  occlusion_tolerance: 0.2
+  depth_max: 10.0
+  floor_match_tolerance: 0.5
+  max_distance: 10.0 
+  min_distance: 0  
+
+generation:
+  max_steps: 500
+  actuation_noise:
+    factor: 0.0
+    seed: 42
+    verbose: false
+
+dataset:
+  type: "R2R" 
+  data_path: "/home/dataset/VLN/datasets/r2r/train/train.json.gz"
+  scenes_dir: "/home/dataset/VLN/scene_datasets"
+  split: "train"
+
+output:
+  base_path: /home/wangb/lwt/dataset/VLN/goal_point_datasets/debug 
+  update_interval: 1  
+  lmdb_jpg_quality: 85  
+  lmdb_formats: 
+    rgb: "jpg"
+    topdown: "jpg"
+
+debug:
+  enabled: false
+  max_episodes: 20
