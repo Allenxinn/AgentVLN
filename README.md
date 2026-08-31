@@ -35,6 +35,7 @@
 
 
 ## News
+* **[2026.08.30]** We release the dataset generation tools and inference code. The documentation will be updated soon.
 * **[2026.08.18]** We release the training code, third-party skill library used for deployment and camera mount documentation.
 * **[2026.06.18]** AgentVLN is accepted by ECCV 2026!!!
 * **[2026.05.14]** We release real-world demos deployed on the Unitree G1 humanoid and Go2 quadruped robots.
@@ -108,7 +109,7 @@ AgentVLN consistently outperforms prior state-of-the-art methods on the Val-Unse
 ## TODO
 - [x] Release the project page and paper PDF
 - [x] Release AgentVLN-Instruct
-- [ ] Open-source training and inference code
+- [x] Open-source training and inference code
 - [ ] Release pretrained model checkpoints
 - [ ] Add installation and environment setup instructions
 
